@@ -1,0 +1,9 @@
+package com.firstapp.halimwidiatmoko.androidloginmvp.Model;
+
+public interface IUser {
+
+    String getEmail();
+    String getPassword();
+    int isValidData();
+
+}
